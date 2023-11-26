@@ -19,8 +19,8 @@ body {
 
 .calculator .value {
   grid-column: span 4;
-  text-align: right;
   height: 100px;
+  text-align: right;
   border: none;
   outline: none;
   padding: 10px;
@@ -29,10 +29,10 @@ body {
 
 .calculator span {
   display: grid;
-  place-items: center;
   height: 60px;
   width: 60px;
   background-color: #292929;
+  place-items: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: #fff;
 }
@@ -42,17 +42,15 @@ body {
   color: #fff;
 }
 
-.calculator span.clear {
+.calculator span.num {
   grid-column: span 2;
-  width: 160px;
+  width: 120px;
   background-color: rgb(255, 163, 26);
+  color: #1b1b1b;
 }
 
-.calculator span.plus {
-  grid-row: span 2;
-  height: 120px;
-}
-
-.calculator span.equal {
-  background-color: rgb(255, 163, 26);
+.calculator span.num:active {
+  background-color: #1b1b1b;
+  color: rgb(255, 163, 26);
+  border: 1px solid rgb(255, 163, 26);
 }
