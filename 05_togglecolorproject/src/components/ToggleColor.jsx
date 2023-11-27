@@ -21,7 +21,7 @@ const ToggleColor = () => {
           }}
           onClick={handleClick}
         >
-          Change Theme
+          {backgroundColor === "#1b1b1b" ? "Black Theme" : "White Theme"}
         </button>
         <section className="content">
           <h1>
