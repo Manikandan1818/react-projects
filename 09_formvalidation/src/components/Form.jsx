@@ -19,7 +19,36 @@ const Form = () => {
   return (
     <div className="card">
       <div className="card-image"></div>
-      <form></form>
+      <form>
+        <input
+          type="text"
+          style={{ borderColor: usernameColor }}
+          placeholder="Name"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+        />
+        <input
+          type="text"
+          style={{ borderColor: emailColor }}
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+        <input
+          type="password"
+          style={{ borderColor: passwordColor }}
+          placeholder="NamPassword"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+        />
+        <input
+          type="password"
+          style={{ borderColor: confirmPasswordColor }}
+          placeholder="Confirm Password"
+          value={confirmPassword}
+          onChange={(e) => setConfirmPassword(e.target.value)}
+        />
+      </form>
     </div>
   );
 };
