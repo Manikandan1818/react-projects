@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Manikandan1818/todolist/static/css/main.2f653be6.css",
+    "main.js": "/Manikandan1818/todolist/static/js/main.3a040c0f.js",
+    "index.html": "/Manikandan1818/todolist/index.html",
+    "main.2f653be6.css.map": "/Manikandan1818/todolist/static/css/main.2f653be6.css.map",
+    "main.3a040c0f.js.map": "/Manikandan1818/todolist/static/js/main.3a040c0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f653be6.css",
+    "static/js/main.3a040c0f.js"
+  ]
+}
