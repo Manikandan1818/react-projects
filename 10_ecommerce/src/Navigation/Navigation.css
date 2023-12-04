@@ -4,6 +4,7 @@ nav {
   justify-content: space-around;
   border-bottom: 2px solid #f3f3f3;
   padding: 20px;
+  z-index: 999;
   margin-left: 2rem;
 }
 
