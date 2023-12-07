@@ -1,7 +1,7 @@
 import Input from "../../components/Input";
 import "./Category.css";
 
-const Category = () => {
+const Category = ({ handleChange }) => {
   return (
     <div>
       <h2 className="sidebar-title">Category</h2>
