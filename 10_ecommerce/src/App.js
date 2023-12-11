@@ -13,6 +13,7 @@ function App() {
   // Input Filter
   const handleInputChange = (e) => {
     setQuery(e.target.value);
+    console.log(setQuery);
   };
   const filteredItems = products.filter((product) =>
     product.title.toLocaleLowerCase().indexOf(query.toLocaleLowerCase() !== -1)
@@ -45,6 +46,7 @@ function App() {
           newPrice === selected
       );
     }
+
     return filteredProducts.map(
       ({
         img,
@@ -74,7 +76,6 @@ function App() {
   };
 
   const result = filteredData(products, selectedCategory, query);
-  console.log(result);
 
   return (
     <>

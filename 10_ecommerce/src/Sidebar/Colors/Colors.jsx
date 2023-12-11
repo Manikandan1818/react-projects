@@ -39,6 +39,7 @@ const Colors = ({ handleChange }) => {
       />
       <label className="sidebar-label-container">
         <input
+          type="radio"
           handleChange={handleChange}
           value="white"
           title="White"
